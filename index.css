@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "digital";
+    src: url("/fonts/digital-readout.heavy-oblique.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "cursed-digital";
+    src: url("/fonts/CursedTimerUlil-Aznm.ttf") format("truetype");
+}
+
+body {
+    margin: 0;
+    background-image: url("https://images.unsplash.com/photo-1520758594221-872948699332?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    /* background-color: yellow; */
+    width: 150px;
+    height: 40px;
+    color: white;
+    margin: 25px auto;
+}
+
+#quarterEl {
+    /* background-color: orange; */
+    color: #F94F6D;
+    width: 15px;
+    margin: auto;
+    font-size: 24px;
+    font-family: cursed-digital,digital;
+    text-shadow: 0px 0px 3px white;
+}
+
+.container {
+    background-color: #1B244A;
+    width: 600px;
+    margin: 2px auto;
+    height: 450px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    border: 5px solid white;
+    border-radius: 5px;
+}
+
+.points-scored {
+    background-color: #080001;
+    color: #F94F6D;
+    height: 120px;
+    width: auto;
+    margin: auto;
+    padding-top: 20px;
+    border-radius: 10px;
+    font-size: 90px;
+    font-family: cursed-digital, digital;
+}
+
+.points {
+    /* background-color: aqua; */
+    width: 200px;
+    height: 45px;
+    display: flex;
+    margin: 25px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.points span {
+    width: 10px;
+    background-color: #9AABD8;
+    height: 10px;
+    border-radius: 50px;
+}
+
+.points button, h5, p {
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 6px 10px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    font-family: cursed-digital,digital;
+    font-size: 16px;
+} 

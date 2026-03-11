@@ -1,6 +1,57 @@
 <html>
-    <head></head>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
     <body>
-        Hi
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <p id="home-points-scored" class="points-scored">0</p>
+                <div class="points">
+                        <button onclick="homeAdd1()">+1</button>
+                        <button onclick="homeAdd2()">+2</button>
+                        <button onclick="homeAdd3()">+3</button>
+               </div>
+                <div class="points">
+                    <button onclick="quarterAdd()">Quarter</button>
+                    <p id="quarterEl">%</p>
+               </div>
+                <div class="points">
+                    <h5>Timer: </h3>
+                    <p id="time">1</p>
+               </div>
+            </div>
+            <div>
+                <h3>AWAY</h3>
+                <p id="away-points-scored" class="points-scored">0</p>
+                 <div class="points">
+                        <button onclick="awayAdd1()">+1</button>
+                        <button onclick="awayAdd2()">+2</button>
+                        <button onclick="awayAdd3()">+3</button>
+                </div>
+                <div class="points">
+                    <button onclick="addAwayFoul()">+1 Away Foul</button>
+                    <Span id = "away1"></Span>
+                    <Span id = "away2"></Span>
+                    <Span id = "away3"></Span>
+                    <Span id = "away4"></Span>
+                </div>
+                <div class="points">
+                    <button onclick="addHomeFoul()">+1 Home Foul</button>
+                    <Span id = "home1"></Span>
+                    <Span id = "home2"></Span>
+                    <Span id = "home3"></Span>
+                    <Span id = "home4"></Span>
+               </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
     </body>
 </html>
+
+<!-- Stretch Goals :
+
+- Add a new game button
+- Highlight the leader
+- Add a few more counters e.g. period, fouls,, timer
+- Change the design  -->
